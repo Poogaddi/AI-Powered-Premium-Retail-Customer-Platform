@@ -1,0 +1,34 @@
+[
+  {
+    "id": "kb-01",
+    "category": "Exchange Policy",
+    "title": "Instant Multi-Device Trade-in Valuation & Pickup Protocol",
+    "tags": ["Trade-In", "Apple", "Samsung", "Exchange Bonus"],
+    "readTime": "3 min read",
+    "summary": "Standard operating procedure for calculating guaranteed trade-in valuation on iPhone, Galaxy, and MacBooks with instant checkout discount."
+  },
+  {
+    "id": "kb-02",
+    "category": "Warranty Policy",
+    "title": "AppleCare+ vs Samsung Care+ vs Sony Protection Comparison",
+    "tags": ["Warranty", "AppleCare", "Accidental Damage"],
+    "readTime": "4 min read",
+    "summary": "Advisor quick-reference table for accidental damage limits, deductible fees, and express replacement services."
+  },
+  {
+    "id": "kb-03",
+    "category": "EMI Information",
+    "title": "0% APR No-Cost Financing & Split Tender Payment Options",
+    "tags": ["Financing", "0% EMI", "Apple Card", "Affirm"],
+    "readTime": "3 min read",
+    "summary": "How to structure 12, 24, and 36-month zero-interest payment schedules for retail shoppers."
+  },
+  {
+    "id": "kb-04",
+    "category": "Delivery Information",
+    "title": "White-Glove Same-Day Delivery & Calibration Setup",
+    "tags": ["Delivery", "TV Installation", "White-Glove"],
+    "readTime": "4 min read",
+    "summary": "Booking protocol for home delivery, unboxing, wall mounting, and acoustic room calibration for luxury AV."
+  }
+]

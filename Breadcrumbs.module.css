@@ -1,0 +1,35 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.homeLink {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  transition: color var(--transition-fast);
+}
+
+.homeLink:hover {
+  color: var(--color-gold);
+}
+
+.homeIcon {
+  color: var(--color-gold);
+}
+
+.separator {
+  color: var(--text-muted);
+  opacity: 0.5;
+}
+
+.currentPage {
+  color: var(--text-primary);
+  font-weight: 600;
+}

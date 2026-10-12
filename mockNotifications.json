@@ -1,0 +1,38 @@
+[
+  {
+    "id": "notif-1",
+    "type": "vip_call",
+    "title": "VIP Inbound Call Queued",
+    "message": "Sophia Sterling (Diamond VIP • Fifth Ave) is calling regarding fine jewelry allocation.",
+    "time": "Just now",
+    "read": false,
+    "priority": "urgent"
+  },
+  {
+    "id": "notif-2",
+    "type": "ai_match",
+    "title": "AI Predictive Match Available",
+    "message": "Sapphire Chandelier Earrings (#HJ-SAP-08) allocated to Place Vendôme matching Alexander Dubois.",
+    "time": "12m ago",
+    "read": false,
+    "priority": "high"
+  },
+  {
+    "id": "notif-3",
+    "type": "followup",
+    "title": "Ascot Fitting SLA Approaching",
+    "message": "Follow-up due with Lady Genevieve Windsor today at 4:00 PM GMT.",
+    "time": "45m ago",
+    "read": false,
+    "priority": "medium"
+  },
+  {
+    "id": "notif-4",
+    "type": "system",
+    "title": "Station Handover Synchronized",
+    "message": "Workstation #04 session audio codec optimized with Studio Noise Shield 2.4.",
+    "time": "2h ago",
+    "read": true,
+    "priority": "low"
+  }
+]

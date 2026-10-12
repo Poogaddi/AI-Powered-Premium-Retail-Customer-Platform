@@ -1,0 +1,22 @@
+{
+  "totalRevenueMTD": "$348,500",
+  "totalCallsMTD": "1,420",
+  "avgCSAT": "96.4%",
+  "npsScore": "+78",
+  "conversionRateMTD": "38.6%",
+  "avgResolutionTime": "4m 32s",
+  "aiLiftRate": "+34.2%",
+  "brandRevenueShare": [
+    { "brand": "Apple", "revenue": 135000, "share": "38.7%" },
+    { "brand": "Samsung", "revenue": 74000, "share": "21.2%" },
+    { "brand": "Sony", "revenue": 64000, "share": "18.4%" },
+    { "brand": "Dyson", "revenue": 49000, "share": "14.1%" },
+    { "brand": "Bose", "revenue": 26500, "share": "7.6%" }
+  ],
+  "intentDistribution": [
+    { "intent": "Extreme (>90%)", "count": 28, "pct": 42 },
+    { "intent": "High (80-89%)", "count": 22, "pct": 33 },
+    { "intent": "Medium (70-79%)", "count": 12, "pct": 18 },
+    { "intent": "Evaluating (<70%)", "count": 5, "pct": 7 }
+  ]
+}

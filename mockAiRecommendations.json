@@ -1,0 +1,59 @@
+[
+  {
+    "id": "rec-001",
+    "customerId": "cust-001",
+    "type": "Cross-Sell Opportunity",
+    "title": "Royal Sapphire Chandelier Earrings Match",
+    "confidence": 98,
+    "insight": "Client purchased the Sapphire Eternity Bracelet 2 months ago. A private allocation of matching 18k White Gold Chandelier Earrings just arrived at Fifth Avenue.",
+    "actionPrompt": "Offer private viewing reservation before public VIP salon showcase.",
+    "potentialValue": 58000,
+    "talkingPoints": [
+      "Mention that gemologist master-matched the royal blue Ceylon sapphires to her bracelet lot.",
+      "Propose private champagne courier viewing directly to her penthouse.",
+      "Authorized to extend 48-hour complimentary salon hold."
+    ]
+  },
+  {
+    "id": "rec-002",
+    "customerId": "cust-001",
+    "type": "Milestone Engagement",
+    "title": "20th Wedding Anniversary approaching in 18 days",
+    "confidence": 94,
+    "insight": "AI Calendar sync detected major anniversary on Nov 4. Historical behavior indicates high propensity for bespoke jewelry commission.",
+    "actionPrompt": "Suggest expedited atelier ring setting or bespoke watch engraving.",
+    "potentialValue": 45000,
+    "talkingPoints": [
+      "Subtly inquire if Mr. Sterling has finalized anniversary plans.",
+      "Highlight expedited 10-day hand-engraving service in Geneva atelier."
+    ]
+  },
+  {
+    "id": "rec-003",
+    "customerId": "cust-002",
+    "type": "Urgent Allocation Alert",
+    "title": "Tourbillon Skeleton No. 04 Allocated to Paris",
+    "confidence": 96,
+    "insight": "Alexander expressed interest in rare skeletonized tourbillons. Piece #04 of 12 was received at Place Vendôme this morning.",
+    "actionPrompt": "Reserve immediate slot for vault demonstration with Master Horologist.",
+    "potentialValue": 145000,
+    "talkingPoints": [
+      "Emphasize this is 1 of only 12 pieces crafted worldwide this year.",
+      "Offer private video consultation with our Master Watchmaker in Geneva."
+    ]
+  },
+  {
+    "id": "rec-004",
+    "customerId": "cust-003",
+    "type": "Concierge Retention",
+    "title": "Ascot Dress Alteration Priority Courier",
+    "confidence": 91,
+    "insight": "Client was anxious about fitting timeline. The atelier head completed hand-stitching 4 days early.",
+    "actionPrompt": "Inform Lady Genevieve that her personal courier is dispatched with fitted garment.",
+    "potentialValue": 22000,
+    "talkingPoints": [
+      "Reassure complete bespoke fitting perfection for Royal Ascot.",
+      "Include gifted silk preservation wardrobe trunk as VIP gesture."
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "prod-101",
+    "name": "Celestial Sapphire Chandelier Earrings",
+    "category": "Haute Joaillerie",
+    "price": 58000,
+    "sku": "HJ-SAP-2026-08",
+    "stock": {
+      "Fifth Avenue Flagship, NYC": 1,
+      "Place Vendôme, Paris": 0,
+      "Bond Street, London": 0,
+      "Ginza Boutique, Tokyo": 0
+    },
+    "status": "In Stock",
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=300&auto=format&fit=crop&q=80",
+    "material": "18k White Gold, 14.2ct Royal Blue Sapphires, F-VVS Diamonds"
+  },
+  {
+    "id": "prod-102",
+    "name": "Sovereign Perpetual Calendar Chronograph",
+    "category": "Fine Horology",
+    "price": 128000,
+    "sku": "HOR-PERP-RG-01",
+    "stock": {
+      "Fifth Avenue Flagship, NYC": 0,
+      "Place Vendôme, Paris": 1,
+      "Bond Street, London": 1,
+      "Ginza Boutique, Tokyo": 0
+    },
+    "status": "Limited Allocation",
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=300&auto=format&fit=crop&q=80",
+    "material": "18k Rose Gold, Grand Feu Enamel Dial, Alligator Strap"
+  },
+  {
+    "id": "prod-103",
+    "name": "Atelier Midnight Velvet Evening Cape",
+    "category": "Couture Fashion",
+    "price": 14500,
+    "sku": "CT-CAP-MID-99",
+    "stock": {
+      "Fifth Avenue Flagship, NYC": 2,
+      "Place Vendôme, Paris": 1,
+      "Bond Street, London": 2,
+      "Ginza Boutique, Tokyo": 1
+    },
+    "status": "In Stock",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=300&auto=format&fit=crop&q=80",
+    "material": "Lyon Silk Velvet, Hand-Embroidered Gold Bullion Thread"
+  },
+  {
+    "id": "prod-104",
+    "name": "Bespoke Super 180s Vicuña Wool Tuxedo",
+    "category": "Tailoring",
+    "price": 22000,
+    "sku": "TLR-VIC-BLK-04",
+    "stock": {
+      "Fifth Avenue Flagship, NYC": 3,
+      "Place Vendôme, Paris": 2,
+      "Bond Street, London": 1,
+      "Ginza Boutique, Tokyo": 2
+    },
+    "status": "Made-to-Order Sample",
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=300&auto=format&fit=crop&q=80",
+    "material": "100% Peruvian Vicuña & Dormeuil Silk Grossgrain"
+  }
+]

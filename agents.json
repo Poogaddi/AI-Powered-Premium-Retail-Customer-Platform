@@ -1,0 +1,54 @@
+[
+  {
+    "id": "agent-01",
+    "name": "Sarah Jenkins",
+    "role": "Senior Retail Success Specialist",
+    "station": "Workstation #04",
+    "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+    "calls": 38,
+    "converted": 18,
+    "conversionRate": "47.4%",
+    "revenue": 64200,
+    "csat": "98%",
+    "status": "In Call"
+  },
+  {
+    "id": "agent-02",
+    "name": "Liam Bennett",
+    "role": "AV & Home Cinema Specialist",
+    "station": "Workstation #02",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    "calls": 34,
+    "converted": 14,
+    "conversionRate": "41.2%",
+    "revenue": 49500,
+    "csat": "92%",
+    "status": "Available"
+  },
+  {
+    "id": "agent-03",
+    "name": "Charlotte Evans",
+    "role": "Personal Lifestyle & Audio Advisor",
+    "station": "Workstation #06",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+    "calls": 31,
+    "converted": 13,
+    "conversionRate": "41.9%",
+    "revenue": 44200,
+    "csat": "95%",
+    "status": "Follow-Up Queue"
+  },
+  {
+    "id": "agent-04",
+    "name": "Jean-Luc Moreau",
+    "role": "Flagship Luxury Tech Specialist",
+    "station": "Workstation #08",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+    "calls": 29,
+    "converted": 11,
+    "conversionRate": "37.9%",
+    "revenue": 39800,
+    "csat": "90%",
+    "status": "Wrap-Up"
+  }
+]

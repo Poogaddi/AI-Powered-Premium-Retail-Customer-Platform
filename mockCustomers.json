@@ -1,0 +1,104 @@
+[
+  {
+    "id": "cust-001",
+    "name": "Sophia Sterling",
+    "tier": "Diamond VIP",
+    "status": "In Call",
+    "lifetimeSpend": 485000,
+    "annualSpend": 142000,
+    "primaryStore": "Fifth Avenue Flagship, NYC",
+    "dedicatedAdvisor": "Eleanor Vance",
+    "phone": "+1 (212) 555-0198",
+    "email": "s.sterling@sterlingholdings.com",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "preferredCategories": ["Haute Joaillerie", "Patek Philippe Horology", "Bespoke Cashmere"],
+    "lastInteraction": "2 days ago • Private Salon Request",
+    "sentiment": "High Affinity",
+    "notes": "Prefers champagne upon arrival. Looking for an anniversary sapphire piece to pair with her 2024 gala set.",
+    "recentPurchases": [
+      { "item": "Royal Sapphire Eternity Bracelet", "price": 42000, "date": "2026-08-14" },
+      { "item": "Limited Edition Cashmere Opera Coat", "price": 8600, "date": "2026-05-22" }
+    ]
+  },
+  {
+    "id": "cust-002",
+    "name": "Alexander Dubois",
+    "tier": "Platinum VIP",
+    "status": "Available",
+    "lifetimeSpend": 320000,
+    "annualSpend": 95000,
+    "primaryStore": "Place Vendôme, Paris",
+    "dedicatedAdvisor": "Jean-Luc Moreau",
+    "phone": "+33 1 42 68 55 12",
+    "email": "alexander.dubois@dubois-capital.fr",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+    "preferredCategories": ["Grand Complications", "Exotic Alligator Goods", "Private Cellar Vault"],
+    "lastInteraction": "1 week ago • Tourbillon Inquiry",
+    "sentiment": "Curious / High Value",
+    "notes": "Collecting perpetual calendars. Inquiring about allocation for the 2027 Grand Master Chiming series.",
+    "recentPurchases": [
+      { "item": "Sovereign Rose Gold Chronograph", "price": 68000, "date": "2026-03-10" }
+    ]
+  },
+  {
+    "id": "cust-003",
+    "name": "Lady Genevieve Windsor",
+    "tier": "Diamond VIP",
+    "status": "Follow-up Due",
+    "lifetimeSpend": 890000,
+    "annualSpend": 260000,
+    "primaryStore": "Bond Street, London",
+    "dedicatedAdvisor": "Eleanor Vance",
+    "phone": "+44 20 7946 0912",
+    "email": "gw@mayfair-estates.co.uk",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+    "preferredCategories": ["Bespoke Evening Gowns", "Heritage Diamonds", "Artisanal Millinery"],
+    "lastInteraction": "Yesterday • Atelier Fitting Reschedule",
+    "sentiment": "Extremely Loyal",
+    "notes": "Needs couture gown alteration confirmed before Royal Ascot reception.",
+    "recentPurchases": [
+      { "item": "Emerald Cut Marquise Necklace", "price": 115000, "date": "2026-07-02" },
+      { "item": "Silk Velvet Evening Cape", "price": 14500, "date": "2026-06-18" }
+    ]
+  },
+  {
+    "id": "cust-004",
+    "name": "Kenji Takahashi",
+    "tier": "Platinum VIP",
+    "status": "Available",
+    "lifetimeSpend": 275000,
+    "annualSpend": 82000,
+    "primaryStore": "Ginza Boutique, Tokyo",
+    "dedicatedAdvisor": "Hanae Mori",
+    "phone": "+81 3 5555 0143",
+    "email": "k.takahashi@omotesando-advisory.jp",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+    "preferredCategories": ["Bespoke Suiting", "Urushi Lacquer Timepieces", "Leather Briefcases"],
+    "lastInteraction": "3 days ago • Suit Measurement Sync",
+    "sentiment": "Steady / Discerning",
+    "notes": "Strict preference for Super 180s wool and discreet hand-sewn monogramming.",
+    "recentPurchases": [
+      { "item": "Handcrafted Midnight Tuxedo", "price": 16000, "date": "2026-04-12" }
+    ]
+  },
+  {
+    "id": "cust-005",
+    "name": "Camilla Rossi",
+    "tier": "Diamond VIP",
+    "status": "Available",
+    "lifetimeSpend": 540000,
+    "annualSpend": 178000,
+    "primaryStore": "Via Montenapoleone, Milan",
+    "dedicatedAdvisor": "Eleanor Vance",
+    "phone": "+39 02 8765 4321",
+    "email": "camilla@rossi-galleria.it",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+    "preferredCategories": ["Runway Footwear", "Python Handbags", "High Jewelry Rings"],
+    "lastInteraction": "5 days ago • Milan Fashion Week Preview",
+    "sentiment": "Excited / Ready to Buy",
+    "notes": "Requests sample delivery directly to her suite at Hotel Principe di Savoia.",
+    "recentPurchases": [
+      { "item": "Limited Edition Crocodile Kelly 28", "price": 64000, "date": "2026-09-01" }
+    ]
+  }
+]

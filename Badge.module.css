@@ -1,0 +1,114 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: var(--radius-full);
+  line-height: 1;
+  text-transform: uppercase;
+  font-size: 0.6875rem;
+  padding: 0.25rem 0.6rem;
+  border: 1px solid transparent;
+}
+
+.sm {
+  font-size: 0.6875rem;
+  padding: 0.2rem 0.55rem;
+}
+
+.md {
+  font-size: 0.75rem;
+  padding: 0.35rem 0.75rem;
+}
+
+/* Luxury Variants */
+.diamond {
+  background: linear-gradient(135deg, rgba(226, 232, 240, 0.2) 0%, rgba(148, 163, 184, 0.3) 100%);
+  color: #E2E8F0;
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+[data-theme='light'] .diamond {
+  background: linear-gradient(135deg, #F1F5F9 0%, #E2E8F0 100%);
+  color: #334155;
+  border-color: #CBD5E1;
+}
+
+.platinum {
+  background: rgba(148, 163, 184, 0.15);
+  color: #CBD5E1;
+  border-color: rgba(148, 163, 184, 0.3);
+}
+
+[data-theme='light'] .platinum {
+  background: #F1F5F9;
+  color: #475569;
+  border-color: #CBD5E1;
+}
+
+.gold {
+  background: rgba(212, 175, 55, 0.16);
+  color: var(--color-gold);
+  border-color: rgba(212, 175, 55, 0.35);
+}
+
+[data-theme='light'] .gold {
+  color: #8D6B07;
+  background: rgba(212, 175, 55, 0.18);
+}
+
+.ai {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.18) 0%, rgba(59, 130, 246, 0.14) 100%);
+  color: #A78BFA;
+  border-color: rgba(139, 92, 246, 0.35);
+}
+
+[data-theme='light'] .ai {
+  color: #6D28D9;
+}
+
+.success {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34D399;
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+[data-theme='light'] .success {
+  color: #059669;
+}
+
+.danger {
+  background: rgba(239, 68, 68, 0.15);
+  color: #F87171;
+  border-color: rgba(239, 68, 68, 0.3);
+}
+
+[data-theme='light'] .danger {
+  color: #DC2626;
+}
+
+.warning {
+  background: rgba(245, 158, 11, 0.15);
+  color: #FBBF24;
+  border-color: rgba(245, 158, 11, 0.3);
+}
+
+[data-theme='light'] .warning {
+  color: #D97706;
+}
+
+.neutral {
+  background: var(--glass-bg-subtle);
+  color: var(--text-secondary);
+  border-color: var(--glass-border-subtle);
+}
+
+/* Dot indicator */
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: currentColor;
+}

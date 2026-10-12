@@ -1,0 +1,79 @@
+[
+  {
+    "id": "notif-01",
+    "category": "call_reminders",
+    "title": "Call Reminder: Marcus Sterling",
+    "message": "Scheduled consultation due in 25 mins regarding Sony BRAVIA 9 85-inch living room glare inquiry.",
+    "time": "5 mins ago",
+    "read": false,
+    "priority": "urgent",
+    "actionLabel": "Open Call Console",
+    "actionRoute": "/live-calls"
+  },
+  {
+    "id": "notif-02",
+    "category": "missed_calls",
+    "title": "Missed Call: Marcus Vance",
+    "message": "Customer called twice after receiving iPhone 16 Pro Max stock alert. SLA callback threshold: 30 mins.",
+    "time": "12 mins ago",
+    "read": false,
+    "priority": "urgent",
+    "actionLabel": "Callback Customer",
+    "actionRoute": "/live-calls"
+  },
+  {
+    "id": "notif-03",
+    "category": "offer_expiry",
+    "title": "Offer Expiry: $500 Soundbar Bundle Coupon",
+    "message": "Festive voucher for Marcus Sterling expires in 6 hours. High conversion propensity (94%).",
+    "time": "25 mins ago",
+    "read": false,
+    "priority": "high",
+    "actionLabel": "Dispatch Reminder",
+    "actionRoute": "/ai-assistant"
+  },
+  {
+    "id": "notif-04",
+    "category": "ai_alerts",
+    "title": "AI High Intent Surge: Elena Rostova",
+    "message": "Client viewed Dyson Airwrap i.d. strawberry bronze page 3x after store demo. Recommended discount: Free $80 case.",
+    "time": "42 mins ago",
+    "read": false,
+    "priority": "high",
+    "actionLabel": "View AI Dossier",
+    "actionRoute": "/ai-assistant"
+  },
+  {
+    "id": "notif-05",
+    "category": "high_priority_leads",
+    "title": "High Priority B2B Lead: David Zhao",
+    "message": "David Zhao requested corporate quote for 5 units Samsung Galaxy S24 Ultra with Knox security.",
+    "time": "1 hour ago",
+    "read": true,
+    "priority": "high",
+    "actionLabel": "View Client Lead",
+    "actionRoute": "/customers"
+  },
+  {
+    "id": "notif-06",
+    "category": "campaign_updates",
+    "title": "Campaign Launch: Festive Trade-in Bonus",
+    "message": "25% additional exchange valuation is now live across all 5 flagship boutiques.",
+    "time": "2 hours ago",
+    "read": true,
+    "priority": "normal",
+    "actionLabel": "View Policy",
+    "actionRoute": "/knowledge-base"
+  },
+  {
+    "id": "notif-07",
+    "category": "customer_callback_reminders",
+    "title": "Callback Reminder: Chloe Chevalier",
+    "message": "Customer requested callback at 3:00 PM CET regarding Bose QC Ultra multi-point Bluetooth pairing.",
+    "time": "3 hours ago",
+    "read": true,
+    "priority": "normal",
+    "actionLabel": "Open Follow-Ups",
+    "actionRoute": "/follow-up-queue"
+  }
+]

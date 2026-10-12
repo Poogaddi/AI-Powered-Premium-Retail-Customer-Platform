@@ -1,0 +1,46 @@
+[
+  {
+    "id": "lead-01",
+    "customer": "Marcus Sterling",
+    "stage": "Post Store Visit (48h Window)",
+    "intent": 94,
+    "budget": "$2,500 - $3,500",
+    "product": "Sony BRAVIA 9 85\" Mini LED",
+    "store": "Fifth Avenue NYC",
+    "advisor": "Sarah Jenkins",
+    "status": "Active"
+  },
+  {
+    "id": "lead-02",
+    "customer": "Elena Rostova",
+    "stage": "Negotiation & Offers",
+    "intent": 89,
+    "budget": "$1,200 - $1,800",
+    "product": "Dyson Airwrap i.d. + V15s Submarine",
+    "store": "Regent Street London",
+    "advisor": "Charlotte Evans",
+    "status": "Active"
+  },
+  {
+    "id": "lead-03",
+    "customer": "David Zhao",
+    "stage": "Live Telephony Consultation",
+    "intent": 96,
+    "budget": "$3,000 - $5,000",
+    "product": "Samsung Galaxy S24 Ultra (5 Units)",
+    "store": "Fifth Avenue NYC",
+    "advisor": "Liam Bennett",
+    "status": "In Call"
+  },
+  {
+    "id": "lead-04",
+    "customer": "Chloe Chevalier",
+    "stage": "Considering Financing",
+    "intent": 78,
+    "budget": "$1,000 - $1,500",
+    "product": "Bose QuietComfort Ultra",
+    "store": "Champs-Élysées Paris",
+    "advisor": "Jean-Luc Moreau",
+    "status": "Active"
+  }
+]

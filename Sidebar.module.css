@@ -1,0 +1,342 @@
+.sidebar {
+  width: var(--sidebar-width);
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border-right: 1px solid var(--glass-border);
+  padding: 1.25rem 1rem 1.5rem;
+  transition: width var(--transition-normal), transform var(--transition-normal);
+  z-index: 50;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.collapsed {
+  width: var(--sidebar-collapsed-width);
+  padding: 1.25rem 0.5rem 1.5rem;
+}
+
+/* Brand Header */
+.brandContainer {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--glass-border-subtle);
+  position: relative;
+}
+
+.logoBadge {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.25) 0%, rgba(139, 92, 246, 0.15) 100%);
+  border: 1px solid var(--glass-border-highlight);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: 0 0 16px var(--color-gold-glow);
+}
+
+.crownIcon {
+  color: var(--color-gold);
+}
+
+.brandText {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 0;
+}
+
+.brandTitle {
+  font-family: var(--font-sans);
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+
+.brandSubtitle {
+  font-size: 0.625rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-gold);
+  font-weight: 700;
+}
+
+.collapseToggle {
+  position: absolute;
+  right: -2px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--glass-bg-elevated);
+  border: 1px solid var(--glass-border);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.collapsed .collapseToggle {
+  right: calc(50% - 12px);
+  top: auto;
+  bottom: -14px;
+  transform: none;
+}
+
+.collapseToggle:hover {
+  color: var(--text-primary);
+  border-color: var(--color-gold);
+}
+
+/* Nav Menu */
+.navMenu {
+  flex: 1;
+}
+
+.navGroupLabel {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  padding: 0 0.75rem 0.65rem;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.navListItem {
+  width: 100%;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+  border: 1px solid transparent;
+}
+
+.collapsed .navLink {
+  justify-content: center;
+  padding: 0.65rem 0;
+}
+
+.navLink:hover {
+  background: var(--nav-item-hover-bg);
+  color: var(--text-primary);
+}
+
+.navLinkActive {
+  background: var(--nav-item-active-bg);
+  border-color: var(--nav-item-active-border);
+  color: var(--text-primary);
+  font-weight: 600;
+  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.08);
+}
+
+.iconContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.navIcon {
+  color: inherit;
+  transition: transform var(--transition-fast);
+}
+
+.navLinkActive .navIcon {
+  color: var(--color-gold);
+}
+
+.navLiveDot {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--color-danger);
+  animation: pulse-ring 1.8s infinite;
+}
+
+.navLinkContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  min-width: 0;
+}
+
+.navLabel {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.navBadge {
+  margin-left: 0.5rem;
+}
+
+/* Simulation Box */
+.simulationBox {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  background: var(--glass-bg-subtle);
+  border: 1px solid var(--glass-border-ai);
+  box-shadow: 0 0 16px var(--color-ai-glow);
+}
+
+.simulationHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-ai-purple);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.35rem;
+}
+
+.simSparkle {
+  color: var(--color-ai-cyan);
+}
+
+.simulationText {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  line-height: 1.4;
+  margin-bottom: 0.75rem;
+}
+
+.simButton {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 600;
+  background: var(--glass-bg-elevated);
+  border: 1px solid var(--glass-border);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.simButton:hover {
+  border-color: var(--color-gold);
+  box-shadow: 0 0 12px var(--color-gold-glow);
+}
+
+.simActive {
+  background: rgba(239, 68, 68, 0.15);
+  border-color: rgba(239, 68, 68, 0.5);
+  color: #F87171;
+}
+
+/* Advisor Performance Card */
+.advisorFooterCard {
+  margin-top: 1rem;
+  padding: 0.85rem;
+  border-radius: var(--radius-md);
+  background: var(--glass-bg-subtle);
+  border: 1px solid var(--glass-border-subtle);
+}
+
+.advisorHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.6rem;
+}
+
+.advisorLabel {
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+}
+
+.stationBadge {
+  font-size: 0.625rem;
+  color: var(--color-gold);
+  font-weight: 600;
+}
+
+.kpiRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.kpiItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kpiValue {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+
+.kpiTitle {
+  font-size: 0.6875rem;
+  color: var(--text-muted);
+}
+
+.kpiDivider {
+  width: 1px;
+  height: 24px;
+  background: var(--glass-border-subtle);
+}
+
+.kpiIcon {
+  color: var(--color-ai-cyan);
+}
+
+.kpiIconGold {
+  color: var(--color-gold);
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

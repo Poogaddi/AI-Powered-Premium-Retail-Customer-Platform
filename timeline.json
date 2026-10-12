@@ -1,0 +1,23 @@
+[
+  {
+    "id": "tl-01",
+    "customerId": "cust-elec-001",
+    "customer": "Marcus Sterling",
+    "events": [
+      { "date": "Oct 11, 2026 - 3:30 PM", "type": "store_visit", "title": "Store Demo at Fifth Avenue", "desc": "Tested Sony BRAVIA 9 under high-lumen spotlight simulator with Liam Bennett." },
+      { "date": "Oct 11, 2026 - 5:15 PM", "type": "digital", "title": "Mobile Spec Sheet Downloaded", "desc": "Customer viewed Sony HT-A9M2 bundle comparison via email link." },
+      { "date": "Today, 10:15 AM", "type": "ai_insight", "title": "AI High Intent Detected (94%)", "desc": "Algorithm flags optimal window to offer complimentary white-glove installation + $500 soundbar rebate." },
+      { "date": "Today, 2:30 PM", "type": "call_due", "title": "Concierge Follow-Up Call Due", "desc": "Agent follow-up call scheduled to answer ambient reflection questions." }
+    ]
+  },
+  {
+    "id": "tl-02",
+    "customerId": "cust-elec-002",
+    "customer": "Elena Rostova",
+    "events": [
+      { "date": "Oct 10, 2026", "type": "store_visit", "title": "Regent St Beauty Salon Fitting", "desc": "Completed customized hair profile mapping with certified Dyson stylist." },
+      { "date": "Oct 11, 2026", "type": "ai_insight", "title": "Gift Bundle AI Suggestion", "desc": "AI recommends offering complimentary presentation case monogramming." },
+      { "date": "Today, 11:00 AM", "type": "call_due", "title": "Follow-Up Completed", "desc": "Sent digital lookbook with VAT refund breakdown." }
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fu-001",
+    "customerName": "Marcus Sterling",
+    "phone": "+1 (212) 555-8941",
+    "store": "Fifth Ave NYC Experience Center",
+    "productInterest": "Sony BRAVIA 9 85\" Mini LED + Soundbar",
+    "dueTime": "Today • 2:30 PM (In 25 mins)",
+    "priority": "Urgent",
+    "status": "Pending",
+    "assignedAgent": "Sarah Jenkins",
+    "intentScore": 94
+  },
+  {
+    "id": "fu-002",
+    "customerName": "Elena Rostova",
+    "phone": "+44 20 7946 0831",
+    "store": "Regent St London Lounge",
+    "productInterest": "Dyson Airwrap i.d. + V15s Submarine",
+    "dueTime": "Today • 4:00 PM (In 1 hour)",
+    "priority": "High",
+    "status": "Pending",
+    "assignedAgent": "Charlotte Evans",
+    "intentScore": 89
+  },
+  {
+    "id": "fu-003",
+    "customerName": "Marcus Vance",
+    "phone": "+1 (415) 555-0912",
+    "store": "Fifth Ave NYC Experience Center",
+    "productInterest": "Apple iPhone 16 Pro Max (1TB Desert Titanium)",
+    "dueTime": "Overdue by 45 mins",
+    "priority": "Urgent",
+    "status": "Overdue",
+    "assignedAgent": "Sarah Jenkins",
+    "intentScore": 92
+  }
+]

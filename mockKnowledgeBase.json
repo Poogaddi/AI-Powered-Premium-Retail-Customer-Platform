@@ -1,0 +1,42 @@
+[
+  {
+    "id": "kb-001",
+    "title": "Private Salon Fitting & Champagne Reception Protocol",
+    "category": "VIP Concierge",
+    "updatedAt": "2026-10-02",
+    "readTime": "3 min read",
+    "summary": "Mandatory setup guidelines for welcoming Diamond & Platinum UHNW clients in boutique private salons.",
+    "tags": ["Salon", "VIP Etiquette", "Hospitality"],
+    "content": "Private salon reservations must be confirmed at least 2 hours prior to arrival. Ensure client's preferred vintage (Dom Pérignon 2013 or Krug Grande Cuvée) is chilled to 8°C. Requested haute horology and jewelry items must be transferred from the vault to the presentation tray prior to seating."
+  },
+  {
+    "id": "kb-002",
+    "title": "Global Tax-Free Shopping & Cross-Border VAT Refund",
+    "category": "Transactions & Customs",
+    "updatedAt": "2026-09-28",
+    "readTime": "5 min read",
+    "summary": "Tax-free export processing for international visitors across Paris, London, New York and Tokyo boutiques.",
+    "tags": ["VAT Refund", "Customs", "Global Clients"],
+    "content": "Non-resident clients purchasing items exceeding $5,000 qualify for immediate digital export validation via Global Blue VIP Concierge. In-salon passport scanning is supported. Explain that luxury goods must remain sealed in security packaging until departure airport customs validation."
+  },
+  {
+    "id": "kb-003",
+    "title": "GIA & Haute Joaillerie Diamond Allocation Verification",
+    "category": "Gemology & Vault",
+    "updatedAt": "2026-10-08",
+    "readTime": "4 min read",
+    "summary": "Protocol for verifying digital GIA dossiers and micro-laser inscriptions on high jewelry stones.",
+    "tags": ["Diamonds", "GIA", "Security"],
+    "content": "All solitaire diamonds above 2.0 carats carry micro-laser inscribed GIA dossier codes on the girdle. Use the high-resolution salon loupe camera to project the inscription onto the client table tablet for full transparency during the consultation."
+  },
+  {
+    "id": "kb-004",
+    "title": "Bespoke Horology Allocation & Waiting List Policy",
+    "category": "Fine Horology",
+    "updatedAt": "2026-09-15",
+    "readTime": "4 min read",
+    "summary": "Rules governing allocation approvals for grand complications, minute repeaters, and limited perpetual calendars.",
+    "tags": ["Horology", "Allocation", "Waitlist"],
+    "content": "Grand complication allocations require approval from the Regional Managing Director. Clients with >$250k annual spend receive Tier 1 allocation priority. Never quote definite delivery timeframes for hand-engraved Geneva pieces without atelier supervisor confirmation."
+  }
+]

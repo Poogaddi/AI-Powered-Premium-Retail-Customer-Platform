@@ -1,0 +1,42 @@
+[
+  {
+    "id": "act-01",
+    "time": "8 mins ago",
+    "advisor": "Sarah Jenkins",
+    "type": "Sale Converted",
+    "customer": "David Zhao",
+    "details": "Converted 5x Samsung Galaxy S24 Ultra enterprise package ($7,095 total)",
+    "icon": "DollarSign",
+    "color": "#10B981"
+  },
+  {
+    "id": "act-02",
+    "time": "22 mins ago",
+    "advisor": "System AI Copilot",
+    "type": "AI Trigger",
+    "customer": "Marcus Sterling",
+    "details": "Detected customer downloaded Sony Bravia 9 technical cutsheet; dispatched follow-up task",
+    "icon": "Sparkles",
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "act-03",
+    "time": "45 mins ago",
+    "advisor": "Liam Bennett",
+    "type": "Store Visit Logged",
+    "customer": "Elena Rostova",
+    "details": "Completed 40-minute Dyson Airwrap styling demonstration at Regent Street",
+    "icon": "Store",
+    "color": "#3B82F6"
+  },
+  {
+    "id": "act-04",
+    "time": "1 hour ago",
+    "advisor": "Charlotte Evans",
+    "type": "Follow-up Sent",
+    "customer": "Alexander Pierce",
+    "details": "Sent 0% 24-month AppleCard financing application via SMS link",
+    "icon": "Send",
+    "color": "#D4AF37"
+  }
+]

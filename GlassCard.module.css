@@ -1,0 +1,56 @@
+.card {
+  position: relative;
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  transition: all var(--transition-normal);
+  overflow: hidden;
+}
+
+.default {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-glass);
+}
+
+.elevated {
+  background: var(--glass-bg-elevated);
+  backdrop-filter: var(--glass-blur-lg);
+  -webkit-backdrop-filter: var(--glass-blur-lg);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--shadow-lg);
+}
+
+.subtle {
+  background: var(--glass-bg-subtle);
+  backdrop-filter: var(--glass-blur-sm);
+  -webkit-backdrop-filter: var(--glass-blur-sm);
+  border: 1px solid var(--glass-border-subtle);
+  box-shadow: var(--shadow-sm);
+}
+
+.ai {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.09) 0%, rgba(59, 130, 246, 0.05) 100%), var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border-ai);
+  box-shadow: var(--shadow-glass), var(--shadow-glow-ai);
+}
+
+.vip {
+  background: linear-gradient(135deg, rgba(212, 175, 55, 0.09) 0%, rgba(245, 158, 11, 0.04) 100%), var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border-highlight);
+  box-shadow: var(--shadow-glass), var(--shadow-glow-gold);
+}
+
+.hoverable {
+  cursor: pointer;
+}
+
+.hoverable:hover {
+  border-color: var(--glass-border-highlight);
+  box-shadow: var(--shadow-lg), var(--shadow-glow-gold);
+}
